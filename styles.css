@@ -1,0 +1,146 @@
+body{
+  /*background-color:white ;*/
+  background: linear-gradient(silver,white);
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+
+/*********************Notes on font-size********************/
+/*16px=1em=100%*/
+/*px The thing with pixels is it remains fixed. Pixels specified in the body portion
+aren't inherited.
+percent and em on the other hand are dynamic properties. They get inherited.
+
+Tutor personally prefers the use of rem very much.*/
+
+h1{
+font-size: 5.625rem;
+margin-bottom: 0px;
+margin-top:0;
+text-align: center;
+font-family: 'Sacramento';
+}
+
+
+#topcontainer{
+  /*background-color: #ecfbfc;*/
+  /*background: linear-gradient(black,white)*/
+  /*background: linear-gradient(#50bda1,white);*/
+  background: linear-gradient(#333333,white);
+
+}
+
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.paragraph1{
+  font-weight:normal;
+line-height: 100px;
+}
+
+/*  hr{
+   background-color:none;
+   border-style:none;
+   border-top-style:dotted;
+   border-color: #fb8d62;
+
+   border-width: 10px;
+
+
+  }*/
+
+
+
+/*.middlecontainer{
+
+  height: 200px;
+  width: 200px;
+  background-color: green;
+}*/
+
+/*.bottomcontainer{
+  height: 200px;
+  width:  200px;
+  background-color: gold;
+
+}*/
+/*#special{
+  text-decoration: underline;
+}*/
+
+/*.img1{
+  display: inline-block;
+  width:100%;
+  height:100px;*/
+  /*margin-right:100px;*/
+  /*margin-left:100px;}*/
+
+
+
+.img2{
+  display:inline-block;
+  width:30%;
+
+  height:5%;
+  image-orientation: center;
+}
+
+.secondbox{
+  background: linear-gradient(black,white);
+}
+
+.fire{
+  display: inline-block;
+  opacity:0.3;
+  position: relative;
+
+
+}
+.goku{
+  display: inline-block;
+  position: absolute;
+  left: auto;
+}
+
+
+.bra{
+
+  /*content: "";*/
+  margin-top:1.5rem;
+  display: block;
+  font-size: 24%;
+
+}
+
+.btn {
+	box-shadow: 0px 0px 0px 0px #3dc21b;
+	background:linear-gradient(#323232,white);
+	background-color:#000000;
+	border-radius:28px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, gray, silver);
+	background-color:#5cbf2a;
+}
+.btn {
+	position:relative;
+	top:1px;
+}
